@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#light{
+        width: 350px;
+        height: 400px;
+}
+.lighton{
+    width: 500px;
+}
+.btnon{
+    background-image: url('./non.jpg');
+}
