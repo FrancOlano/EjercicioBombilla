@@ -1,17 +1,27 @@
 body{
     background-color: black;
+    position: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 #light{
-        width: 350px;
-        height: 400px;
+        width: 400px;
+        height: 700px;
 }
-.lighton{
-    width: 500px;
+#btn{
+    width: 85px;
+    height: 85px;
+    
 }
-.btnon{
-    background-image: url('./non.jpg');
+.btn{
+    background-image: url('./boff.jpg');
+    background-repeat: no-repeat;
+}
+
+.light{
+    background-image: url('./off.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }

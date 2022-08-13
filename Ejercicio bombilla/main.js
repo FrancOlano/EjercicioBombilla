@@ -1,4 +1,6 @@
-$('#btn').click( function() {
-    $('#btn').toggleClass('btnon');
-    $('#light').toggleClass('lighton');
-});
+const btn = document.getElementById('btn')
+const light = document.getElementById('light')
+
+btn.onclick = function () {
+    
+}
