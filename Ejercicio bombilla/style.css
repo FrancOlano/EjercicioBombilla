@@ -1,27 +1,25 @@
-body{
-    background-color: black;
-    position: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+body {
+  background-color: black;
+  position: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#light{
-        width: 400px;
-        height: 700px;
+#btn {
+  z-index: 10;
 }
-#btn{
-    width: 85px;
-    height: 85px;
-    
+.controls {
+  color: rgb(255, 255, 255);
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  z-index: 20;
 }
-.btn{
-    background-image: url('./boff.jpg');
-    background-repeat: no-repeat;
-}
-
-.light{
-    background-image: url('./off.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+label {
+  background-color: brown;
+  border-radius: 2em;
+  text-align: center;
 }

@@ -8,8 +8,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="btn" id="btn"></div>
-    <div class="light" id="light"></div>
+    <div class="controls" id="controls">
+      <label for="zoom">Light Bulb Zoom</label>
+      <input type="range" name="zoom" id="zoom" value="100" min="10" max="100"
+      step="1"/>
+      <label for="level">Light Level</label>
+      <input type="range" name="level" id="level" value="100" min="0" max="100"
+      step="1"/>
+    </div>
+    <img src="./boff.jpg" id="btn" />
+    <img src="./off.jpg" id="light" width="465" height="609"/>
 
     <script src="main.js"></script>
   </body>
